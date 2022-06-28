@@ -24,15 +24,68 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.formInputs{
+  display: flex;
+  gap: 5px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  width: 80%;
+  height: 60vh;
+  background-color: white;
+  padding: 1em;
+  border-radius: 0.3em;
+
+  display: grid;
+  grid-template-columns: 30% auto;
+  gap: 10px;
+}
+
+.title{
+  font-weight: 600;
+}
+
+.item1 {
+  color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-right: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bodyItem1{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footerItem1{
+  margin: 0 auto;
+}
+
+.bodyContent {
+  font-size: medium;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.item2 {
+  color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.cardsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reservationCard {
+  background: rgb(107, 107, 107);
+  padding: 10px;
+  color: white;
+  cursor: pointer;
 }
